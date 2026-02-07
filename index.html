@@ -2,163 +2,174 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>CapTalento RH</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="CapTalento RH — Recrutamento e Seleção Humanizado para empresas que precisam contratar com segurança, agilidade e foco em cultura organizacional." />
+  <title>CapTalento RH | Recrutamento e Seleção Humanizado</title>
+  <meta name="description" content="CapTalento RH — Recrutamento e Seleção Humanizado. Conectamos empresas aos talentos certos com processo estruturado, comunicação clara e foco em fit cultural." />
+  <link rel="icon" href="img/brand/favicon.png" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
 
-  <!-- NAV -->
+<body>
+  <!-- HEADER -->
   <header class="nav">
     <div class="container nav-inner">
       <a class="brand" href="index.html" aria-label="CapTalento RH">
+        <!-- Quando tiver a logo, troque o span pelo <img> -->
+        <!-- <img class="logo" src="img/brand/logo.svg" alt="CapTalento RH"> -->
         <span class="brand-name">CapTalento RH</span>
       </a>
 
-      <!-- Desktop -->
+      <!-- Desktop nav (opcional e enxuta) -->
       <nav class="nav-links" aria-label="Navegação principal">
-        <a class="btn btn-ghost" href="#como-trabalhamos">Como trabalhamos</a>
-        <a class="btn btn-ghost" href="#servicos">Serviços</a>
-        <a class="btn btn-ghost" href="#investimento">Investimento</a>
-        <a class="btn btn-ghost" href="talentos.html">Banco de Talentos</a>
+        <a class="nav-link" href="#como-trabalhamos">Como trabalhamos</a>
+        <a class="nav-link" href="#servicos">Serviços</a>
+        <a class="nav-link" href="#investimento">Investimento</a>
       </nav>
 
       <div class="nav-actions">
         <a class="btn primary"
-           href="https://wa.me/5541992316705?text=Olá!%20Vim%20pelo%20site%20da%20CapTalento%20RH%20e%20quero%20delegar%20uma%20contratação.%20Podemos%20conversar%3F"
-           target="_blank">
-          Falar com Comercial
+           href="https://wa.me/5541992316705?text=Olá!%20Vim%20pelo%20site%20da%20CapTalento%20RH.%20Quero%20abrir%20uma%20vaga%20e%20entender%20o%20processo."
+           target="_blank" rel="noopener">
+          Abrir uma vaga
         </a>
 
-        <!-- Mobile menu button (3 dots) -->
+        <!-- Mobile menu button -->
         <button class="icon-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
-          ⋯
+          ☰
         </button>
       </div>
     </div>
 
-    <!-- Mobile drawer -->
+    <!-- Mobile drawer: SOMENTE outras páginas -->
     <div class="mobile-menu" id="mobileMenu" hidden>
       <div class="container mobile-menu-inner">
-        <a class="mobile-link" href="#para-quem">Para quem é</a>
-        <a class="mobile-link" href="#problema">O problema</a>
-        <a class="mobile-link" href="#como-trabalhamos">Como trabalhamos</a>
-        <a class="mobile-link" href="#entregamos">O que entregamos</a>
-        <a class="mobile-link" href="#servicos">Serviços</a>
-        <a class="mobile-link" href="#investimento">Investimento</a>
-        <a class="mobile-link" href="vaga-certa.html">Vaga Certa</a>
+        <a class="mobile-link" href="vaga-certa.html">Conhecer o Vaga Certa</a>
         <a class="mobile-link" href="talentos.html">Banco de Talentos</a>
 
         <div class="mobile-cta">
           <a class="btn primary"
-             href="https://wa.me/5541992316705?text=Olá!%20Vim%20pelo%20site%20da%20CapTalento%20RH%20e%20quero%20delegar%20uma%20contratação.%20Podemos%20conversar%3F"
-             target="_blank">
-            Falar com Comercial
+             href="https://wa.me/5541992316705?text=Olá!%20Quero%20abrir%20uma%20vaga%20com%20a%20CapTalento%20RH.%20Podemos%20alinhar%20perfil%20e%20prazo%3F"
+             target="_blank" rel="noopener">
+            Abrir uma vaga
           </a>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- HERO -->
+  <!-- HERO (foto + card sobreposto + chips) -->
   <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <h1 class="h1">Conectamos empresas aos talentos certos.</h1>
+    <div class="container hero-wrap">
+
+      <!-- Background image (slot) -->
+      <div class="hero-media" aria-hidden="true">
+        <!-- Suba sua imagem em /img/photos/hero.jpg -->
+        <img src="img/photos/hero.jpg" alt="">
+      </div>
+
+      <!-- Overlay card -->
+      <div class="hero-card">
+        <div class="eyebrow">RECRUTAMENTO E SELEÇÃO HUMANIZADO</div>
+
+        <h1 class="h1">
+          Conectamos empresas aos <span class="accent-underline">talentos certos</span>.
+        </h1>
+
         <p class="sub">
-          Recrutamento e seleção humanizado para empresas que precisam crescer com inteligência,
-          com foco em cultura organizacional e decisões seguras.
+          A CapTalento RH atua como parceira estratégica de empresas que buscam contratar com
+          <b>qualidade</b>, <b>agilidade</b> e <b>foco na cultura organizacional</b>.
+          Nosso compromisso é aproximar pessoas e empresas de forma profissional, com cuidado humano e processo claro.
         </p>
 
         <div class="btns">
           <a class="btn primary"
-             href="https://wa.me/5541992316705?text=Olá!%20Quero%20delegar%20uma%20contratação%20com%20a%20CapTalento%20RH.%20Vamos%20alinhar%20perfil%20e%20prazo%3F"
-             target="_blank">
-            Quero delegar uma contratação
+             href="https://wa.me/5541992316705?text=Olá!%20Quero%20abrir%20uma%20vaga%20com%20a%20CapTalento%20RH.%20Podemos%20conversar%3F"
+             target="_blank" rel="noopener">
+            Abrir uma vaga
           </a>
-          <a class="btn" href="vaga-certa.html">Conhecer o Vaga Certa</a>
-          <a class="btn btn-link" href="talentos.html">Sou candidato(a)</a>
+          <a class="btn secondary" href="vaga-certa.html">
+            Conhecer o Vaga Certa
+          </a>
         </div>
 
+        <!-- Pills (sem emoji: use ícones depois / por enquanto sem ícone) -->
         <div class="pills">
-          <div class="pill">🤝 Humanizado e profissional</div>
-          <div class="pill">🎯 Triagem com critério</div>
-          <div class="pill">🧭 Fit cultural</div>
-          <div class="pill">📣 Comunicação clara</div>
+          <div class="pill">Atendimento humanizado</div>
+          <div class="pill">Triagem com critério</div>
+          <div class="pill">Fit cultural</div>
+          <div class="pill">Comunicação clara</div>
         </div>
       </div>
 
-      <div class="card">
-        <h2 class="h2">Nosso compromisso</h2>
-        <p class="p">
-          Aproximar pessoas e empresas de forma profissional, ajudando organizações a formarem equipes fortes
-          e alinhadas aos seus valores.
-        </p>
+      <!-- Floating chips (slots, com verde pontual) -->
+      <div class="float-chip chip-1">
+        <span class="dot-green"></span>
+        <span>Processo estruturado</span>
+      </div>
 
-        <hr class="hr" />
+      <div class="float-chip chip-2">
+        <span class="dot-green"></span>
+        <span>Fit cultural</span>
+      </div>
 
-        <div class="kpi">
-          <div class="kpi-icon">✅</div>
-          <div>
-            <b>Processo estruturado</b>
-            <span>Briefing objetivo, triagem e entrevistas com metodologia.</span>
-          </div>
-        </div>
-
-        <hr class="hr" />
-
-        <div class="kpi">
-          <div class="kpi-icon">✅</div>
-          <div>
-            <b>Entrega clara</b>
-            <span>Shortlist e alinhamento final para reduzir ruído e retrabalho.</span>
-          </div>
-        </div>
-
-        <div class="btns" style="margin-top:14px;">
-          <a class="btn accent" href="vaga-certa.html">Ver Vaga Certa</a>
-          <a class="btn" href="talentos.html">Banco de Talentos</a>
-        </div>
+      <div class="float-chip chip-3">
+        <span class="dot-green"></span>
+        <span>Transparência</span>
       </div>
     </div>
   </section>
 
-  <!-- PARA QUEM -->
-  <section class="section" id="para-quem">
-    <div class="container">
-      <h2 class="h2">Para líderes que sabem que contratar bem é estratégico.</h2>
-      <p class="p">
-        Atuamos ao lado de CEOs, diretores e lideranças que querem contratar com segurança e foco no crescimento,
-        sem transformar o recrutamento em gargalo.
-      </p>
-
-      <div class="grid-3" style="margin-top:14px;">
-        <div class="card">
-          <h3 class="h3">Crescimento com consistência</h3>
-          <p class="p">Empresas em fase de escala, estruturação ou expansão de time.</p>
-        </div>
-        <div class="card">
-          <h3 class="h3">Menos tempo perdido</h3>
-          <p class="p">Lideranças que não querem entrevistas improdutivas nem retrabalho.</p>
-        </div>
-        <div class="card">
-          <h3 class="h3">Cultura como filtro</h3>
-          <p class="p">Negócios que valorizam fit cultural e postura, além do currículo.</p>
-        </div>
+  <!-- STATS STRIP (placeholders para você trocar depois) -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <div class="stat-value">+___</div>
+        <div class="stat-label">Empresas atendidas</div>
       </div>
+
+      <div class="stat-card">
+        <div class="stat-value">+___</div>
+        <div class="stat-label">Vagas conduzidas</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-value">+___</div>
+        <div class="stat-label">Profissionais no Banco de Talentos</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-value">___</div>
+        <div class="stat-label">Tempo médio para shortlist</div>
+      </div>
+    </div>
+
+    <div class="container stats-note">
+      <small class="small">
+        * Substitua os placeholders acima pelos números reais assim que vocês consolidarem as informações.
+      </small>
     </div>
   </section>
 
-  <!-- PROBLEMA -->
-  <section class="section" id="problema">
-    <div class="container">
-      <div class="card">
-        <h2 class="h2">Contratar não deveria ser um gargalo para a liderança.</h2>
+  <!-- TRUST BLOCK (variação com verde sutil) -->
+  <section class="section">
+    <div class="container split">
+      <div class="card highlight">
+        <h2 class="h2">Delegue a contratação com segurança.</h2>
         <p class="p">
-          Quando o processo depende do tempo do CEO, a contratação vira atraso, ruído e desgaste.
-          Nosso papel é assumir essa responsabilidade com critério, método e cuidado humano — para que a liderança foque no que move o negócio.
+          A liderança não precisa carregar entrevistas, triagens e ruído operacional.
+          Nós conduzimos o processo com método e cuidado humano para apoiar uma decisão mais segura e um time mais alinhado.
         </p>
+
+        <ul class="list">
+          <li><span class="check"></span> Critérios claros desde o alinhamento</li>
+          <li><span class="check"></span> Entrevistas com foco em evidências</li>
+          <li><span class="check"></span> Comunicação transparente do início ao fim</li>
+        </ul>
+      </div>
+
+      <div class="media-card">
+        <!-- Suba em /img/photos/trust.jpg -->
+        <img src="img/photos/trust.jpg" alt="CapTalento RH — processo humanizado e profissional">
       </div>
     </div>
   </section>
@@ -166,42 +177,50 @@
   <!-- COMO TRABALHAMOS -->
   <section class="section" id="como-trabalhamos">
     <div class="container">
-      <h2 class="h2">Método, critério e olhar humano em cada etapa.</h2>
+      <h2 class="h2">Como trabalhamos</h2>
+      <p class="p lead">
+        Um processo estruturado, com visão humana e foco em cultura — do alinhamento ao pós-shortlist.
+      </p>
 
-      <div class="grid-3" style="margin-top:14px;">
-        <div class="card">
-          <h3 class="h3">1) Alinhamento estratégico</h3>
-          <p class="p">Contexto do negócio, cultura, rotina do time e perfil ideal com critérios claros.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-top">
+            <div class="step-num">1</div>
+            <h3 class="h3">Alinhamento estratégico</h3>
+          </div>
+          <p class="p">Entendemos contexto, cultura, perfil e critérios. Sem briefing genérico.</p>
         </div>
-        <div class="card">
-          <h3 class="h3">2) Atração + triagem qualificada</h3>
-          <p class="p">Canais certos, busca ativa e triagem estruturada (técnico + comportamental).</p>
-        </div>
-        <div class="card">
-          <h3 class="h3">3) Shortlist e decisão segura</h3>
-          <p class="p">Candidatos recomendados com visão clara de aderência e próximos passos alinhados.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- O QUE ENTREGAMOS -->
-  <section class="section" id="entregamos">
-    <div class="container">
-      <h2 class="h2">Clareza, segurança e tempo devolvido à liderança.</h2>
+        <div class="step">
+          <div class="step-top">
+            <div class="step-num">2</div>
+            <h3 class="h3">Atração + triagem</h3>
+          </div>
+          <p class="p">Canais e hunting quando necessário, com triagem técnica e comportamental.</p>
+        </div>
 
-      <div class="grid-3" style="margin-top:14px;">
-        <div class="card">
-          <h3 class="h3">Processo completo</h3>
-          <p class="p">Condução ponta a ponta com comunicação transparente.</p>
+        <div class="step">
+          <div class="step-top">
+            <div class="step-num">3</div>
+            <h3 class="h3">Entrevistas humanizadas</h3>
+          </div>
+          <p class="p">Avaliação além do currículo, focada em evidências e aderência cultural.</p>
         </div>
-        <div class="card">
-          <h3 class="h3">Shortlist qualificado</h3>
-          <p class="p">Perfis alinhados com recomendação e pontos-chave para decisão.</p>
+
+        <div class="step">
+          <div class="step-top">
+            <div class="step-num">4</div>
+            <h3 class="h3">Shortlist acionável</h3>
+          </div>
+          <p class="p">Perfis recomendados com clareza para tomada de decisão.</p>
         </div>
-        <div class="card">
-          <h3 class="h3">Alinhamento final</h3>
-          <p class="p">Pós-shortlist estruturado para reduzir ruído e retrabalho interno.</p>
+
+        <div class="step">
+          <div class="step-top">
+            <div class="step-num">5</div>
+            <h3 class="h3">Pós-shortlist</h3>
+          </div>
+          <p class="p">Alinhamos validações internas, documentação e aprovação final para evitar retrabalho.</p>
         </div>
       </div>
     </div>
@@ -210,29 +229,32 @@
   <!-- SERVIÇOS -->
   <section class="section" id="servicos">
     <div class="container">
-      <h2 class="h2">Como podemos ajudar</h2>
+      <h2 class="h2">Serviços</h2>
 
-      <div class="grid-3" style="margin-top:14px;">
-        <div class="card" style="grid-column: span 2;">
-          <h3 class="h3">Vaga Certa (Empresas)</h3>
+      <div class="service-grid">
+        <div class="card service primary-service">
+          <div class="service-badge">Serviço principal</div>
+          <h3 class="h3">Vaga Certa</h3>
           <p class="p">
-            Serviço de recrutamento e seleção humanizado para contratar com confiança, método e foco em cultura.
+            Recrutamento completo com processo estruturado e comunicação clara. Ideal para empresas que querem contratar com segurança e fit cultural.
           </p>
           <div class="btns">
-            <a class="btn accent" href="vaga-certa.html">Ver Vaga Certa</a>
-            <a class="btn primary"
-               href="https://wa.me/5541992316705?text=Olá!%20Quero%20entender%20como%20funciona%20o%20Vaga%20Certa%20e%20receber%20uma%20proposta%20personalizada."
-               target="_blank">
-              Solicitar proposta
+            <a class="btn primary" href="vaga-certa.html">Conhecer o Vaga Certa</a>
+            <a class="btn secondary"
+               href="https://wa.me/5541992316705?text=Olá!%20Quero%20abrir%20uma%20vaga%20com%20a%20CapTalento%20RH.%20Podemos%20alinhar%20perfil%3F"
+               target="_blank" rel="noopener">
+              Abrir uma vaga
             </a>
           </div>
         </div>
 
-        <div class="card">
-          <h3 class="h3">Banco de Talentos (Candidatos)</h3>
-          <p class="p">Cadastre seu perfil para oportunidades futuras alinhadas ao seu momento.</p>
+        <div class="card service">
+          <h3 class="h3">Banco de Talentos</h3>
+          <p class="p">
+            Um canal para profissionais se cadastrarem e serem considerados em oportunidades futuras alinhadas ao perfil e momento.
+          </p>
           <div class="btns">
-            <a class="btn" href="talentos.html">Acessar Banco de Talentos</a>
+            <a class="btn secondary" href="talentos.html">Acessar Banco de Talentos</a>
           </div>
         </div>
       </div>
@@ -243,19 +265,17 @@
   <section class="section" id="investimento">
     <div class="container">
       <div class="card">
-        <h2 class="h2">Investimento personalizado, conforme a vaga.</h2>
+        <h2 class="h2">Investimento alinhado à realidade de cada vaga.</h2>
         <p class="p">
-          Cada processo é desenhado por senioridade, urgência, complexidade e canais necessários.
-          Por isso, o investimento é definido de forma personalizada, alinhado ao cenário real da empresa.
+          Senioridade, urgência e complexidade mudam a estratégia e os canais. Por isso, definimos o investimento de forma personalizada após o alinhamento.
         </p>
-
-        <div class="btns" style="margin-top:14px;">
+        <div class="btns">
           <a class="btn primary"
-             href="https://wa.me/5541992316705?text=Olá!%20Quero%20uma%20proposta%20personalizada%20para%20uma%20vaga.%20Podemos%20conversar%3F"
-             target="_blank">
+             href="https://wa.me/5541992316705?text=Olá!%20Quero%20solicitar%20uma%20proposta%20personalizada%20para%20uma%20vaga.%20Podemos%20alinhar%3F"
+             target="_blank" rel="noopener">
             Solicitar proposta
           </a>
-          <a class="btn" href="mailto:contato@rhcaptalento.com.br">Enviar e-mail</a>
+          <a class="btn secondary" href="mailto:contato@rhcaptalento.com.br">Enviar e-mail</a>
         </div>
       </div>
     </div>
@@ -264,28 +284,37 @@
   <!-- CTA FINAL -->
   <section class="section">
     <div class="container">
-      <div class="card">
-        <h2 class="h2">Vamos estruturar sua próxima contratação?</h2>
-        <p class="p">Converse com a CapTalento RH e entenda como apoiar o crescimento do seu time com decisões mais seguras e humanas.</p>
-        <div class="btns" style="margin-top:14px;">
+      <div class="banner">
+        <div>
+          <h2 class="h2" style="margin:0;">Pronto para abrir sua próxima vaga com mais clareza?</h2>
+          <p class="p" style="margin:8px 0 0;">
+            A CapTalento RH conduz o processo com método e cuidado humano para apoiar decisões mais seguras.
+          </p>
+        </div>
+        <div class="banner-actions">
           <a class="btn primary"
-             href="https://wa.me/5541992316705?text=Olá!%20Quero%20delegar%20uma%20contratação%20com%20a%20CapTalento%20RH.%20Podemos%20conversar%3F"
-             target="_blank">
-            Falar com Comercial
+             href="https://wa.me/5541992316705?text=Olá!%20Quero%20abrir%20uma%20vaga%20com%20a%20CapTalento%20RH.%20Podemos%20conversar%3F"
+             target="_blank" rel="noopener">
+            Abrir uma vaga
           </a>
-          <a class="btn" href="vaga-certa.html">Ver Vaga Certa</a>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
-    <div class="container">
-      © CapTalento RH — Recrutamento e Seleção Humanizado.
-      <span class="dot">•</span>
-      <a class="footer-link" href="talentos.html">Banco de Talentos</a>
-      <span class="dot">•</span>
-      <a class="footer-link" href="mailto:contato@rhcaptalento.com.br">contato@rhcaptalento.com.br</a>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        © CapTalento RH — Recrutamento e Seleção Humanizado.
+      </div>
+      <div class="footer-right">
+        <a class="footer-link" href="vaga-certa.html">Vaga Certa</a>
+        <span class="dot">•</span>
+        <a class="footer-link" href="talentos.html">Banco de Talentos</a>
+        <span class="dot">•</span>
+        <a class="footer-link" href="mailto:contato@rhcaptalento.com.br">contato@rhcaptalento.com.br</a>
+      </div>
     </div>
   </footer>
 
@@ -304,17 +333,14 @@
       menu.hidden = isOpen;
     });
 
-    // Close on link click
     menu.addEventListener('click', (e) => {
       if(e.target.classList.contains('mobile-link')) closeMenu();
     });
 
-    // Close on outside click
     document.addEventListener('click', (e) => {
       const clickedInsideNav = e.target.closest('.nav');
       if(!clickedInsideNav) closeMenu();
     });
   </script>
-
 </body>
 </html>
