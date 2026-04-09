@@ -171,14 +171,15 @@ body{font-family:var(--font-body),'Plus Jakarta Sans',system-ui,sans-serif;color
 .sobre-val-4 .sobre-val-title{color:#7C3AED}
 .sobre-val-desc{font-size:11px;color:var(--muted);line-height:1.45}
 
-/* ━━━ BANCO DE TALENTOS ━━━ */
-.talentos-inner{display:grid;grid-template-columns:5fr 7fr;gap:36px;align-items:start}
-.talentos-steps{display:flex;flex-direction:column;margin-top:16px}
-.talentos-step{display:flex;align-items:flex-start;gap:12px;padding:12px 0;border-bottom:1px solid var(--border)}
-.talentos-step:last-child{border-bottom:none}
-.talentos-step-n{width:30px;height:30px;border-radius:50%;background:var(--green-light);border:1.5px solid rgba(26,143,92,.2);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:11px;font-weight:700;color:var(--green)}
-.talentos-step-title{font-size:13.5px;font-weight:600;color:var(--ink);margin-bottom:2px}
-.talentos-step-desc{font-size:11.5px;color:var(--muted);line-height:1.55}
+/* ━━━ BANCO DE TALENTOS (home) ━━━ */
+.talentos-sec{text-align:center;display:flex;flex-direction:column;align-items:center}
+.talentos-sec .section-sub{text-align:center}
+.talentos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px;width:100%}
+.talentos-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:20px;text-align:left;transition:.15s}
+.talentos-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.05);transform:translateY(-2px)}
+.talentos-card-n{font-size:22px;font-weight:700;color:var(--green);letter-spacing:-.03em;margin-bottom:8px}
+.talentos-card-t{font-size:14px;font-weight:600;color:var(--ink);margin-bottom:4px}
+.talentos-card-d{font-size:12px;color:var(--muted);line-height:1.55}
 .talentos-form-wrap{background:#fff;border:1px solid var(--border);border-radius:14px;padding:24px}
 
 /* TalentForm */
@@ -338,7 +339,8 @@ footer{width:100%;background:#080A14;padding:40px 0 20px}
   .vc-grid{grid-template-columns:1fr}
   .vc-item:nth-child(n){border-right:none}
   .vc-cta-cell{grid-column:span 1;flex-direction:column;align-items:flex-start;gap:12px;padding:20px}
-  .sobre-inner,.talentos-inner,.talentos-page{grid-template-columns:1fr;gap:24px}
+  .sobre-inner,.talentos-page{grid-template-columns:1fr;gap:24px}
+  .talentos-grid{grid-template-columns:1fr}
   .tform-row{grid-template-columns:1fr}
   .tform-actions{flex-direction:column}
   .tform-back{width:100%;text-align:center}
