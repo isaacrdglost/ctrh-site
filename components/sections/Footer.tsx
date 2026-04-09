@@ -19,8 +19,8 @@ export default function Footer() {
           </div>
           <div className="footer-col">
             <div className="footer-col-title">Candidatos</div>
-            <a href="#talentos">Banco de Talentos</a>
-            <a href="#talentos">Cadastrar currículo</a>
+            <a href="/talentos">Banco de Talentos</a>
+            <a href="/talentos">Cadastrar currículo</a>
           </div>
           <div className="footer-col">
             <div className="footer-col-title">Contato</div>
